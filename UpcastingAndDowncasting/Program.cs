@@ -7,7 +7,7 @@ namespace UpcastingAndDowncasting
     {
         static void Main(string[] args)
         {
-            Account acc1 = new Account(1001, "Henrique", 500);
+            Account acc1 = new BusinessAcount(1001,"John Lennox",500,1000.0);
             Account acc2 = new SavingsAccount(1002, "Alexandra", 500, 0.01);
             
             acc1.Withdraw(10.0);
